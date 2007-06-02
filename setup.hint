@@ -1,0 +1,4 @@
+category: Perl Gnome
+requires: cygwin glib2 gtk2-x11 libnotify perl perl-Glib
+sdesc: "Perl libnotify bindings"
+ldesc: "Perl bindings for libnotify (desktop notification library)"

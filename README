@@ -1,0 +1,74 @@
+perl-Gtk2-Notify
+------------------------------------------
+Perl bindings for libnotify (desktop notification library)
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  gdk-pixbuf2-2.10.12-1
+  glib2-2.12.12-1
+  gtk2-x11-2.10.12-1
+  libnotify-0.4.4-1
+  perl-5.8.7-5
+  perl-Glib-1.144-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  perl-5.8.7-5
+  perl-ExtUtils-Depends-0.205-1
+  perl-ExtUtils-PkgConfig-1.07-1
+
+Canonical website:
+  http://search.cpan.org/dist/Gtk2-Notify/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/F/FL/FLORA/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gtk2-Notify-0.03-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Gtk2-Notify-0.03-X.cygport all
+
+This will create:
+  /usr/src/perl-Gtk2-Notify-0.03-X-src.tar.bz2
+  /usr/src/perl-Gtk2-Notify-0.03-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Gtk2-Notify.sh
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gtk2/Notify.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gtk2/Notify.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gtk2/Notify/Install/notify-autogen.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gtk2/Notify/Install/notify.typemap
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gtk2/Notify/index.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gtk2/Notify/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gtk2/Notify/Notify.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gtk2/Notify/Notify.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gtk2/Notify/libNotify.dll.a
+  /usr/share/doc/Cygwin/perl-Gtk2-Notify-0.03.README
+  /usr/share/doc/perl-Gtk2-Notify-0.03/Changes
+  /usr/share/doc/perl-Gtk2-Notify-0.03/README
+  /usr/share/man/man3/Gtk2.Notify.3pm.gz
+  /usr/share/man/man3/Gtk2.Notify.index.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/Gtk2-Notify.pod
+
+------------------
+
+Port Notes:
+
+----- version 0.03-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
