@@ -4,12 +4,13 @@ Perl bindings for libnotify (desktop notification library)
 
 Runtime requirements:
   cygwin-1.5.24-2
-  gdk-pixbuf2-2.10.12-1
-  glib2-2.12.12-1
-  gtk2-x11-2.10.12-1
+  gdk-pixbuf2-2.10.14-1
+  glib2-2.12.13-1
+  gtk2-x11-2.10.14-1
   libnotify-0.4.4-1
-  perl-5.8.7-5
+  perl-5.8.8-4
   perl-Glib-1.144-1
+  perl-Gtk2-1.146-1
 
 Build requirements:
 (besides corresponding -devel packages)
