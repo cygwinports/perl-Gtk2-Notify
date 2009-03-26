@@ -3,23 +3,24 @@ perl-Gtk2-Notify
 Perl bindings for libnotify (desktop notification library)
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  gdk-pixbuf2-2.12.12-1
-  glib2-2.16.6-1
-  gtk2-x11-2.12.12-1
-  libnotify-0.4.4-1
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  libgdk_pixbuf2.0_0-2.16.0-1
+  libglib2.0_0-2.20.0-1
+  libgtk2.0_0-2.16.0-1
+  libnotify1-0.4.5-10
   perl-5.10.0-5
-  perl-Glib-1.183-1
-  perl-Gtk2-1.183-1
+  perl-Glib-1.220-1
+  perl-Gtk2-1.220-1
 
 Build requirements:
 (besides corresponding -devel packages)
   binutils-20080624-2
-  cygport-0.4.2-1
-  gcc-core-3.4.4-3
-  make-3.81-1
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  make-3.81-2
   perl-ExtUtils-Depends-0.301-1
-  perl-ExtUtils-PkgConfig-1.11-1
+  perl-ExtUtils-PkgConfig-1.12-1
 
 Canonical website:
   http://search.cpan.org/dist/Gtk2-Notify/
@@ -51,8 +52,8 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/Notify/index.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/Notify/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/Notify/Notify.dll
-  /usr/share/doc/perl-Gtk2-Notify-0.05/Changes
-  /usr/share/doc/perl-Gtk2-Notify-0.05/README
+  /usr/share/doc/perl-Gtk2-Notify/Changes
+  /usr/share/doc/perl-Gtk2-Notify/README
   /usr/share/man/man3/Gtk2.Notify.3pm.gz
   /usr/share/man/man3/Gtk2.Notify.index.3pm.gz
 
@@ -60,14 +61,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.05-1 -----
-Version bump.
-
------ version 0.04-2 -----
-Rebuilt for perl-5.10.
-
------ version 0.04-1 -----
-Initial release for Cygwin.
+----- version 0.05-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
