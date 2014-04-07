@@ -1,0 +1,9 @@
+CPAN_AUTHOR=flora
+inherit gtk2-perl
+
+NAME="perl-Gtk2-Notify"
+VERSION=0.05
+RELEASE=10
+CATEGORY="Perl"
+SUMMARY="Perl libnotify bindings"
+DESCRIPTION="Perl bindings for libnotify (desktop notification library)"
