@@ -3,9 +3,12 @@ inherit gtk2-perl
 
 NAME="perl-Gtk2-Notify"
 VERSION=0.05
-RELEASE=12
+RELEASE=13
 CATEGORY="Perl"
 SUMMARY="Perl libnotify bindings"
 DESCRIPTION="Perl bindings for libnotify (desktop notification library)"
 
-PATCH_URI="0.05-libnotify07.patch"
+PATCH_URI="
+	0.05-libnotify07.patch
+	0.05-perl526.patch
+"

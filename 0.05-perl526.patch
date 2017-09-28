@@ -1,0 +1,11 @@
+--- origsrc/Gtk2-Notify-0.05/Makefile.PL	2008-11-12 00:41:09.000000000 -0600
++++ src/Gtk2-Notify-0.05/Makefile.PL	2017-09-27 00:41:42.867469900 -0500
+@@ -1,6 +1,7 @@
+ use strict;
+ use warnings;
+-use lib 'ext';
++use FindBin qw($Bin);
++use lib 'ext', "$Bin";
+ use inc::Module::Install;
+ 
+ name 'Gtk2-Notify';
